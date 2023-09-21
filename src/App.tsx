@@ -2,6 +2,7 @@ import Run from "./assets/exploreIcons/run.png"
 import Arrow from "./assets/exploreIcons/arrow.png"
 import Dot from "./assets/exploreIcons/dot.png"
 import About from './assets/about.png'
+import printPreview from './assets/printPreview.png'
 
 import Man from "./assets/man.png"
 import Header from './components/Header/Header'
@@ -71,6 +72,23 @@ function App() {
             & Delivering</h1>
           <p>Web designers plan, create and code internet sites and web pages, many of which combine text with sounds, pictures, graphics and video clips.</p>
           <a href="#">Learn More</a>
+        </div>
+      </section>
+
+      <section className="discoverOurWork">
+        <div className="discoverOurWorkTitle">
+          <h1>Discover Our Work</h1>
+          <p>Web designer is responsible for creating the design and layout of a website.</p>
+        </div>
+        <div className="discoverOurWorkContent">
+          <div className="discoverOurWorkSrcText">
+            <span>User interface</span>
+            <h1>Creative Agency & Portfolio</h1>
+            <p>Web designers plan, create and code internet sites and web pages, text with sounds.</p>
+          </div>
+          <div className="discoverOurWorkSrc">
+            <img src={printPreview}  width={widthDefault} alt="" />
+          </div>
         </div>
       </section>
     </>

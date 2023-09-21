@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;700&display=swap');
 
 * {
     margin: 0;
@@ -33,7 +34,7 @@ button {
 
 .bannerContent span span,
 h1 span {
-    color: #EA3D3C;
+    color: var(--corGoiaba);
 }
 
 @media (max-width:700px) {
@@ -54,7 +55,8 @@ h1 span {
         z-index: 0;
     }
 }
-@media (max-width:200px){
+
+@media (max-width:200px) {
     .banner .bannerImage img {
         opacity: 0;
     }
@@ -101,32 +103,37 @@ p {
     }
 }
 
-.about{
+.about {
     display: flex;
     justify-content: center;
-    margin:100px 0;
+    margin: 100px 0;
 }
-.about .aboutContent{
+
+.about .aboutContent {
     width: 30%;
     margin: 0 3vw;
 }
-.about .aboutContent span{
+
+.about .aboutContent span {
     color: #333333;
     font-size: 7px;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-family: arial;
 }
-.about .aboutContent h1{
+
+.about .aboutContent h1 {
     font-size: 2.5rem;
     color: #333333;
 }
-.about .aboutContent p{
+
+.about .aboutContent p {
     color: #333333;
     font-size: 12px;
     opacity: 0.5;
 }
-.about .aboutContent a{
+
+.about .aboutContent a {
     text-decoration: none;
     color: #333333;
     font-weight: bold;
@@ -134,22 +141,96 @@ p {
     letter-spacing: 1px;
     font-size: 10px;
 }
-@media (max-width:700px){
-    .about{
+
+@media (max-width:700px) {
+    .about {
         flex-direction: column;
         align-items: center;
     }
-    .about .aboutContent{
+
+    .about .aboutContent {
         width: 100%;
         text-align: center;
     }
 }
 
-@media (max-width:300px){
-    .about .aboutSrc{
+@media (max-width:300px) {
+    .about .aboutSrc {
         text-align: center;
     }
-    .about .aboutSrc img{
+
+    .about .aboutSrc img {
         width: 70%;
+    }
+}
+
+
+.discoverOurWork .discoverOurWorkTitle {
+    text-align: center;
+}
+
+.discoverOurWork .discoverOurWorkTitle h1 {
+    font-size: 2.5rem;
+    color: #333333;
+}
+
+.discoverOurWork .discoverOurWorkTitle p {
+    opacity: 0.5;
+    color: #333333;
+}
+
+.discoverOurWork .discoverOurWorkContent {
+    background-color: var(--corGoiaba);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    margin-top: 50px;
+
+}
+
+.discoverOurWork .discoverOurWorkContent .discoverOurWorkSrcText {
+    color: #fff;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 12px;
+}
+
+.discoverOurWorkSrcText span {
+    width: 70%;
+}
+
+.discoverOurWorkSrcText h1 {
+    width: 70%;
+}
+
+.discoverOurWorkSrcText p {
+    width: 70%;
+}
+
+.discoverOurWork .discoverOurWorkContent .discoverOurWorkSrcText h1 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+@media (max-width:700px) {
+    .discoverOurWork .discoverOurWorkContent {
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .discoverOurWorkSrcText span {
+        width: 100%;
+    }
+    
+    .discoverOurWorkSrcText h1 {
+        width: 100%;
+    }
+    
+    .discoverOurWorkSrcText p {
+        width: 100%;
+    }
+
+    .discoverOurWork .discoverOurWorkContent  .discoverOurWorkSrc{
+        margin:20px 0
     }
 }
