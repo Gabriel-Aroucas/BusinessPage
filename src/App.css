@@ -30,6 +30,9 @@ button {
 .banner .bannerContent button{
     background-color: var(--corGoiaba);
 }
+.banner .bannerContent .descript, .banner .bannerContent p{
+    opacity: 0.6;
+}
 
 .bannerContent h1 {
     font-size: 3rem;

@@ -19,7 +19,7 @@ function App() {
       <Header />
       <section className='banner' >
         <div className="bannerContent ">
-          <span>
+          <span className="descript">
             <span>|</span>Ninad Creative Agency
           </span>
 
