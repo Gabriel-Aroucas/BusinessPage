@@ -3,6 +3,8 @@ import Arrow from "./assets/exploreIcons/arrow.png"
 import Dot from "./assets/exploreIcons/dot.png"
 import About from './assets/about.png'
 import printPreview from './assets/printPreview.png'
+import static1 from './assets/static1.png'
+import static2 from './assets/static2.png'
 
 import Man from "./assets/man.png"
 import Header from './components/Header/Header'
@@ -87,8 +89,32 @@ function App() {
             <p>Web designers plan, create and code internet sites and web pages, text with sounds.</p>
           </div>
           <div className="discoverOurWorkSrc">
-            <img src={printPreview}  width={widthDefault} alt="" />
+            <img src={printPreview} width={widthDefault} alt="" />
           </div>
+        </div>
+      </section>
+
+      <section className="statistic">
+        <div className="statisticSrc">
+          <img src={static1} width={widthDefault} alt="" />
+          <img src={static2} width={widthDefault} alt="" />
+        </div>
+
+        <div className="statisticText">
+          <article className="revenue">
+            <h1>4.200%</h1>
+            <p>Revenue</p>
+          </article>
+
+          <article className="projects">
+            <h1>73+</h1>
+            <p>projects</p>
+          </article>
+
+          <article className="uptime">
+            <h1>99.5+</h1>
+            <p>uptime</p>
+          </article>
         </div>
       </section>
     </>
