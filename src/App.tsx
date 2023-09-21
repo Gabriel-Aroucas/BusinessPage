@@ -11,6 +11,7 @@ import profileBernar from './assets/profile/bernar.png'
 import profileFabiano from './assets/profile/fabiano.png'
 import profileAlik from './assets/profile/alik.png'
 import profileAnton from './assets/profile/anton.png'
+import billy from './assets/profile/billy.png'
 
 import Man from "./assets/man.png"
 import Header from './components/Header/Header'
@@ -189,6 +190,39 @@ function App() {
             <h2>Anton Brownstain</h2>
             <p>Developer</p>
           </article>
+        </div>
+      </section>
+
+
+      <section className="testmonials">
+        <div className="testmonialsText">
+          <h1>Our Testimonials</h1>
+          <p>Read some awesome feedback from our students all over the world. We are giving the best to our students</p>
+        </div>
+        <div className="testmonialsSrc">
+        
+          <article>
+            <p className="testmonialsSrcTitle">Lorem ipsum dolor sit amet, con adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+            <div className="articleSrc">
+              <img src={billy} width={'50px'} alt="" />
+              <h2>Billy Root <p className="codename">torest</p></h2>
+            </div>
+          </article>
+          <article>
+            <p className="testmonialsSrcTitle">Lorem ipsum dolor sit amet, con adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+            <div className="articleSrc">
+              <img src={billy} width={'50px'} alt="" />
+              <h2>Billy Root <p className="codename">torest</p></h2>
+            </div>
+          </article>
+          <article>
+            <p className="testmonialsSrcTitle">Lorem ipsum dolor sit amet, con adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+            <div className="articleSrc">
+              <img src={billy} width={'50px'} alt="" />
+              <h2>Billy Root <p className="codename">torest</p></h2>
+            </div>
+          </article>
+        
         </div>
       </section>
     </>
