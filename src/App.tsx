@@ -1,12 +1,15 @@
 import Run from "./assets/exploreIcons/run.png"
 import Arrow from "./assets/exploreIcons/arrow.png"
 import Dot from "./assets/exploreIcons/dot.png"
+import About from './assets/about.png'
 
 import Man from "./assets/man.png"
 import Header from './components/Header/Header'
 import './App.css'
+import { useState } from "react"
 
 function App() {
+  const [widthDefault] = useState("300px");
 
   return (
     <>
@@ -27,7 +30,7 @@ function App() {
           <button type="button">read-more</button>
         </div>
         <div className="bannerImage">
-          <img src={Man} alt="A man" width="300px" />
+          <img src={Man} alt="A man" width={widthDefault} />
         </div>
       </section>
 
@@ -54,6 +57,20 @@ function App() {
             <p>Stay on top of your task lists and stay in touch with what's happening</p>
           </div>
 
+        </div>
+      </section>
+
+      <section className="about">
+        <div className="aboutSrc">
+          <img src={About} width={widthDefault} alt="" />
+        </div>
+        <div className="aboutContent">
+          <span>About</span>
+          <h1>Creating,
+            Communicating
+            & Delivering</h1>
+          <p>Web designers plan, create and code internet sites and web pages, many of which combine text with sounds, pictures, graphics and video clips.</p>
+          <a href="#">Learn More</a>
         </div>
       </section>
     </>
