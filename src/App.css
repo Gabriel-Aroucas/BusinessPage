@@ -170,6 +170,9 @@ p {
     .about .aboutSrc img {
         width: 70%;
     }
+    .about .aboutContent h1{
+        word-wrap: break-word;
+    }
 }
 
 
@@ -241,6 +244,11 @@ p {
 
     .discoverOurWork .discoverOurWorkContent  .discoverOurWorkSrc{
         margin:20px 0
+    }
+    @media (max-width:330px){
+        .discoverOurWork .discoverOurWorkSrc img{
+            width: 100%;
+        }
     }
 }
 
@@ -350,6 +358,9 @@ p {
 @media (max-width:300px){
     .analyze .analyzeContent .responsiveArticle{
         flex-direction: column;
+    }
+    .analyze .analyzeSrc img{
+        width: 100%;
     }
 }
 
