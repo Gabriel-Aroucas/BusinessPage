@@ -7,6 +7,10 @@ import static1 from './assets/static1.png'
 import static2 from './assets/static2.png'
 import analyze from './assets/analyze.png'
 import fakeIframe from './assets/fakeIframe.png'
+import profileBernar from './assets/profile/bernar.png'
+import profileFabiano from './assets/profile/fabiano.png'
+import profileAlik from './assets/profile/alik.png'
+import profileAnton from './assets/profile/anton.png'
 
 import Man from "./assets/man.png"
 import Header from './components/Header/Header'
@@ -152,6 +156,39 @@ function App() {
         <div className="howWeWorkContent">
           <h1>How We Work</h1>
           <p>Web designers plan, create and code internet sites and web pages, many of which combine text with sounds, pictures, graphics and video clips.</p>
+        </div>
+      </section>
+
+
+      <section className="teamMembers">
+        <div className="teamMembersText">
+          <h1>Team Members</h1>
+          <p>Combine text with sounds, pictures, graphics and video clips.</p>
+        </div>
+        <div className="teamMembersSrc">
+          <article className="bernar">
+            <img src={profileBernar} width={'150px'} alt="" />
+            <h2>Bernarr Dominik</h2>
+            <p>Founder</p>
+          </article>
+
+          <article className="fabiano">
+            <img src={profileFabiano} width={'150px'} alt="" />
+            <h2>Fabiano Horta</h2>
+            <p>Account Manager</p>
+          </article>
+
+          <article className="alike">
+            <img src={profileAlik} width={'150px'} alt="" />
+            <h2>Alike Stanger</h2>
+            <p>Designer</p>
+          </article>
+
+          <article className="anton">
+            <img src={profileAnton} width={'150px'} alt="" />
+            <h2>Anton Brownstain</h2>
+            <p>Developer</p>
+          </article>
         </div>
       </section>
     </>
