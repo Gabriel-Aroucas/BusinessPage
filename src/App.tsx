@@ -5,6 +5,7 @@ import About from './assets/about.png'
 import printPreview from './assets/printPreview.png'
 import static1 from './assets/static1.png'
 import static2 from './assets/static2.png'
+import analyze from './assets/analyze.png'
 
 import Man from "./assets/man.png"
 import Header from './components/Header/Header'
@@ -115,6 +116,31 @@ function App() {
             <h1>99.5+</h1>
             <p>uptime</p>
           </article>
+        </div>
+      </section>
+
+      <section className="analyze">
+        <div className="analyzeContent">
+          <h1>Analyze & Improve</h1>
+          <p>Web designer is responsible for creating the design and layout of a website or web pages. It and can mean working on a brand new website.</p>
+
+          <section className="responsiveArticle">
+            <article>
+              <i className="icon">✓</i> <span>Well Planned Architecture</span>
+            </article>
+
+            <article>
+              <i className="icon">✓</i> <span>Accessible to All Users</span>
+            </article>
+
+            <article>
+              <i className="icon">✓</i> <span>Mobile Compatibility</span>
+            </article>
+          </section>
+
+        </div>
+        <div className="analyzeSrc">
+          <img src={analyze} width={widthDefault} alt="" />
         </div>
       </section>
     </>
