@@ -593,8 +593,8 @@ footer .footerLists .menu ul li, .service ul li{
     font-size: 11px;
     margin: 10px 0;
 }
-footer .footerLists .socialMedia img{
-    margin: 0 5px;
+footer .footerLists .socialMedia i{
+    margin: 0 5px   ;
 }
 
 footer .copy{

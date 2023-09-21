@@ -24,10 +24,15 @@ import Man from "./assets/man.png"
 import Header from './components/Header/Header'
 import './App.css'
 import { useState } from "react"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook } from "@fortawesome/free-brands-svg-icons"
+import { faTwitter } from "@fortawesome/free-brands-svg-icons"
+import { faInstagram } from "@fortawesome/free-brands-svg-icons"
+
 
 function App() {
   const [widthDefault] = useState("300px");
-
+  
   return (
     <>
       <Header />
@@ -310,9 +315,9 @@ function App() {
             </ul>
           </div>
           <div className="socialMedia">
-            <img src="https://placehold.co/50x50" alt="" />
-            <img src="https://placehold.co/50x50" alt="" />
-            <img src="https://placehold.co/50x50" alt="" />
+            <i><FontAwesomeIcon icon={faFacebook} /></i>
+            <i><FontAwesomeIcon icon={faTwitter} /></i>
+            <i><FontAwesomeIcon icon={faInstagram} /></i>
           </div>
         </section>
         <section className="copy">
