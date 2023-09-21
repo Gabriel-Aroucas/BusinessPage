@@ -365,3 +365,15 @@ p {
     width: 30%;
     opacity: 0.7;
 }
+
+@media (max-width:500px){
+.howWeWork .howWeWorkContent{
+    flex-direction: column;
+}
+.howWeWork .howWeWorkContent p{
+    width: 100%;
+}
+.howWeWork .howWeWorkSrc img{
+    width: 80%;
+}
+}
