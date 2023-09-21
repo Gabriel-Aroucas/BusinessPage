@@ -350,3 +350,18 @@ p {
         flex-direction: column;
     }
 }
+
+.howWeWork{
+    text-align: center;
+    margin: 100px 0;
+}
+.howWeWork .howWeWorkContent{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+
+}
+.howWeWork .howWeWorkContent p{
+    width: 30%;
+    opacity: 0.7;
+}

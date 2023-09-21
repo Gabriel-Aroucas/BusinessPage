@@ -6,6 +6,7 @@ import printPreview from './assets/printPreview.png'
 import static1 from './assets/static1.png'
 import static2 from './assets/static2.png'
 import analyze from './assets/analyze.png'
+import fakeIframe from './assets/fakeIframe.png'
 
 import Man from "./assets/man.png"
 import Header from './components/Header/Header'
@@ -141,6 +142,16 @@ function App() {
         </div>
         <div className="analyzeSrc">
           <img src={analyze} width={widthDefault} alt="" />
+        </div>
+      </section>
+
+      <section className="howWeWork">
+        <div className="howWeWorkSrc">
+          <img src={fakeIframe} width={'500px'} alt="" />
+        </div>
+        <div className="howWeWorkContent">
+          <h1>How We Work</h1>
+          <p>Web designers plan, create and code internet sites and web pages, many of which combine text with sounds, pictures, graphics and video clips.</p>
         </div>
       </section>
     </>
