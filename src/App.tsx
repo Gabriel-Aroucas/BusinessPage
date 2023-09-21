@@ -12,11 +12,14 @@ import profileFabiano from './assets/profile/fabiano.png'
 import profileAlik from './assets/profile/alik.png'
 import profileAnton from './assets/profile/anton.png'
 import billy from './assets/profile/billy.png'
-import clickcenter from'./assets/clienteProfile/clickcenter.png'
-import digitalside from'./assets/clienteProfile/digitalSide.png'
-import vortex from'./assets/clienteProfile/vortex.png'
-import travel from'./assets/clienteProfile/travel.png'
-import fuzion from'./assets/clienteProfile/fuzion.png'
+import clickcenter from './assets/clienteProfile/clickcenter.png'
+import digitalside from './assets/clienteProfile/digitalSide.png'
+import vortex from './assets/clienteProfile/vortex.png'
+import travel from './assets/clienteProfile/travel.png'
+import fuzion from './assets/clienteProfile/fuzion.png'
+import grandma from './assets/blogsrc/grandma.png'
+import family from './assets/blogsrc/family.png'
+import see from './assets/blogsrc/see.png'
 import Man from "./assets/man.png"
 import Header from './components/Header/Header'
 import './App.css'
@@ -204,7 +207,7 @@ function App() {
           <p>Read some awesome feedback from our students all over the world. We are giving the best to our students</p>
         </div>
         <div className="testmonialsSrc">
-        
+
           <article>
             <p className="testmonialsSrcTitle">Lorem ipsum dolor sit amet, con adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
             <div className="articleSrc">
@@ -233,13 +236,55 @@ function App() {
         <div className="clientsText">
           <h3>Our Famous Clients</h3>
         </div>
-      <div className="clientsSrc">
-        <img src={clickcenter} width={'100px'} alt="" />
-        <img src={digitalside} width={'100px'} alt="" />
-        <img src={vortex} width={'100px'} alt="" />
-        <img src={travel} width={'100px'} alt="" />
-        <img src={fuzion} width={'80px'} alt="" />
-      </div>
+        <div className="clientsSrc">
+          <img src={clickcenter} width={'100px'} alt="" />
+          <img src={digitalside} width={'100px'} alt="" />
+          <img src={vortex} width={'100px'} alt="" />
+          <img src={travel} width={'100px'} alt="" />
+          <img src={fuzion} width={'80px'} alt="" />
+        </div>
+      </section>
+
+      <section className="blog">
+        <div className="blogText">
+          <h1>Latest From Blog</h1>
+        </div>
+
+        <div className="blogSrc">
+          <div className="card">
+            <div>
+              <img src={grandma} alt="" />
+            </div>
+            <div className="cardTitle">
+              <h2>Build prototypes with thousands of components.</h2>
+              <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches.</p>
+              <span className="readmoreOne" >Read more</span>
+            </div>
+          </div>
+
+          <div className="card">
+            <div>
+              <img src={family} alt="" />
+            </div>
+            <div className="cardTitle">
+              <h2>Build prototypes with thousands of components.</h2>
+              <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches.</p>
+              <span className="readmoreTwo">Read more</span>
+            </div>
+          </div>
+
+
+          <div className="card">
+            <div>
+              <img src={see} alt="" />
+            </div>
+            <div className="cardTitle">
+              <h2>Build prototypes with thousands of components.</h2>
+              <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches.</p>
+              <span className="readmoreThree">Read more</span>
+            </div>
+          </div>
+        </div>
       </section>
     </>
   )

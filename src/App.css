@@ -497,3 +497,63 @@ p {
 .clients .clientsSrc img{
     margin: 0 10px;
 }
+
+
+.blog .blogText{
+    margin: 2rem;
+    text-align: center;
+}
+.blog .blogSrc{
+    display: flex;
+    justify-content: center;
+}
+.blog .blogSrc .card{
+    width: 20%;
+    margin: 0 10px;
+    border: 1px solid rgb(51, 51, 51,0.3);
+    border-radius: 10px 10px 0 0;
+}
+.blog .blogSrc .card img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+
+}
+.blog .blogSrc .card h2{
+    font-size: 15px;
+    font-family: Epilogue;
+
+}
+.blog .blogSrc .card p{
+    font-size: 12px;
+    opacity: 0.6;
+}
+.blog .blogSrc .card span{
+    text-decoration: underline;
+    font-family: Epilogue;
+    font-weight: bold;
+    font-size: 10px;
+}
+.blog .blogSrc .card .readmoreOne{
+    color: var(--amareloClaro);
+}
+.blog .blogSrc .card .readmoreTwo{
+    color: var(--verdeClaro);
+}
+.blog .blogSrc .card .readmoreThree{
+    color: var(--laranja);
+}
+
+.blog .blogSrc .card .cardTitle{
+    padding: 1rem;
+}
+
+@media (max-width:800px){
+    .blog .blogSrc{
+        flex-direction: column;
+        align-items: center;
+    }
+    .blog .blogSrc .card{
+        width: 40%;
+        margin: 10px 0;
+    }
+}
