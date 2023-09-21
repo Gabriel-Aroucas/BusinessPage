@@ -481,3 +481,19 @@ p {
     margin: 10px 0;
 }
 }
+
+.clients{
+    margin: 5rem 0;
+}
+.clients h3{
+    text-align: center;
+    font-family: Epilogue;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.clients .clientsSrc{
+    text-align: center;
+}
+.clients .clientsSrc img{
+    margin: 0 10px;
+}

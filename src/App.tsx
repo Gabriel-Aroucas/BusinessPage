@@ -12,7 +12,11 @@ import profileFabiano from './assets/profile/fabiano.png'
 import profileAlik from './assets/profile/alik.png'
 import profileAnton from './assets/profile/anton.png'
 import billy from './assets/profile/billy.png'
-
+import clickcenter from'./assets/clienteProfile/clickcenter.png'
+import digitalside from'./assets/clienteProfile/digitalSide.png'
+import vortex from'./assets/clienteProfile/vortex.png'
+import travel from'./assets/clienteProfile/travel.png'
+import fuzion from'./assets/clienteProfile/fuzion.png'
 import Man from "./assets/man.png"
 import Header from './components/Header/Header'
 import './App.css'
@@ -222,8 +226,20 @@ function App() {
               <h2>Billy Root <p className="codename">torest</p></h2>
             </div>
           </article>
-        
         </div>
+      </section>
+
+      <section className="clients">
+        <div className="clientsText">
+          <h3>Our Famous Clients</h3>
+        </div>
+      <div className="clientsSrc">
+        <img src={clickcenter} width={'100px'} alt="" />
+        <img src={digitalside} width={'100px'} alt="" />
+        <img src={vortex} width={'100px'} alt="" />
+        <img src={travel} width={'100px'} alt="" />
+        <img src={fuzion} width={'80px'} alt="" />
+      </div>
       </section>
     </>
   )
