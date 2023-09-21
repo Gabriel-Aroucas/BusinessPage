@@ -569,7 +569,13 @@ p {
         width: 40%;
         margin: 10px 0;
     }
+
 }
+@media (max-width:600px){
+    .blog .blogSrc .card{
+        width: 80%;
+    }
+    }
 
 footer{
     background-color: #111111;
