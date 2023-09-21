@@ -286,6 +286,43 @@ function App() {
           </div>
         </div>
       </section>
+      <footer>
+        <section className="footerLists">
+          <div className="footerbrand">
+            <span>WD</span>
+          </div>
+          <div className="menu">
+            <p>Menu</p>
+            <ul>
+              <li>About</li>
+              <li>Portifólio</li>
+              <li>Blog</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+          <div className="service">
+            <p>Service</p>
+            <ul>
+              <li>User Experience</li>
+              <li>User Interface</li>
+              <li>Logotype</li>
+              <li>See More</li>
+            </ul>
+          </div>
+          <div className="socialMedia">
+            <img src="https://placehold.co/50x50" alt="" />
+            <img src="https://placehold.co/50x50" alt="" />
+            <img src="https://placehold.co/50x50" alt="" />
+          </div>
+        </section>
+        <section className="copy">
+          <span>Copyright © 2020 Laaqiq. All Rights Reserved.</span>
+          <div className="terms">
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </section>
+      </footer>
     </>
   )
 }
