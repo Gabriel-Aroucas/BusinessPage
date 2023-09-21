@@ -36,7 +36,7 @@ function App() {
           <h1>Explore Service</h1>
           <p>The sky was cloudless and of a deep dark blue spectacle before us was indeed sublime.</p>
         </div>
-        
+
         <div className="exploreServiceSrc">
           <div className="run">
             <img src={Run} alt="" width={'50px'} />
@@ -56,7 +56,6 @@ function App() {
 
         </div>
       </section>
-
     </>
   )
 }
